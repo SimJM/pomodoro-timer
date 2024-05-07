@@ -1,6 +1,7 @@
 {
 	"name": "pomodoro-timer",
-	"version": "0.1.0",
+	"version": "1.0.0",
+	"homepage": "https://SimJM.github.io/pomodoro-timer",
 	"private": true,
 	"dependencies": {
 		"@chakra-ui/react": "^2.8.2",
@@ -19,6 +20,8 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
@@ -50,6 +53,7 @@
 		"@testing-library/jest-dom": "^6.4.5",
 		"@types/jest": "^29.5.12",
 		"@types/testing-library__jest-dom": "^6.0.0",
+		"gh-pages": "^6.1.1",
 		"jest-environment-jsdom": "^27.5.1",
 		"ts-node": "^10.9.2"
 	}
