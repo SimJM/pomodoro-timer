@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/pomodoro-timer/static/js/main.91ca6f4d.js",
+    "static/media/notificationSound.mp3": "/pomodoro-timer/static/media/notificationSound.b43a86f0cb4d152aba9e.mp3",
+    "index.html": "/pomodoro-timer/index.html",
+    "main.91ca6f4d.js.map": "/pomodoro-timer/static/js/main.91ca6f4d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.91ca6f4d.js"
+  ]
+}
